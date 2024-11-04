@@ -141,8 +141,8 @@ void typing_check(String word){//verifica daca input-ul dat prin interfata seria
   while (Serial.available() > 0) {//astept ca interfata seriala sa fie available
     input_char = Serial.read(); //citesc litera cu litra de pe intrfata seriala
 
-    // Ignora caracterul '\n'
-    if (input_char == '\n') { //cand apas enter se trimite \r si \n. de aceea ignor endln
+    // Ignora caracterul '\n' '\r'
+    if (input_char == '\n' || input_char == '\r') { //cand apas enter se trimite \r si \n. de aceea ignor si endln
       continue;
     }
 
@@ -160,27 +160,21 @@ void typing_check(String word){//verifica daca input-ul dat prin interfata seria
       }
       continue;
     }
+
+    if (index < MAX_MESSAGE-1) {//daca mai e loc in input_word
+      input_word[index++] = input_char;//adaug ultimul caracter citit
+      input_word[index] = 0;//pun 0 pe urmatorul ccaracter pt a arata ca momentan acolo se sfarseste cuvantul
+    }
     
-    if(input_char == '\r'){//daca s-a citit enter inseamna ca s-a terminat de introdus cuvantul
-      if(word == input_word){ //daca cuvantul introdus = cuvantul generat aleator
-        scor++; //incrementez scorul cu 1
-        Serial.println("Correct word! Incrementing score.");
+    if(word == input_word){//daca cuvantul introdus = cuvantul generat aleator
+      
+      scor++; //incrementez scorul cu 1
+      Serial.println("\nCorrect word! Incrementing score.");
 
-        word_display_frequency_counter = display_frequency; //pentru a se genera un cuvant nou imediat dupa ce un cuvant a fost introdus
-      }
-      else{
-        Serial.println("Incorrect");
-        //Serial.print(input_word);
-      }
-
+      word_display_frequency_counter = display_frequency; //pentru a se genera un cuvant nou imediat dupa ce un cuvant a fost introdus
+      
       input_word[0] = 0; //curata primul caracter din buffer, pentru a fi gata din nou de scriere
       index = 0;
-    }
-    else{
-      if (index < MAX_MESSAGE-1) {//daca mai e loc in input_word
-        input_word[index++] = input_char;//adaug ultimul caracter citit
-        input_word[index] = 0;//pun 0 pe urmatorul ccaracter pt a arata ca momentan acolo se sfarseste cuvantul
-      }
     }
 
     //verific daca exista greseli in cuvantul scris de user
