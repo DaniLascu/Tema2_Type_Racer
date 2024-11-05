@@ -2,7 +2,7 @@
 # Scopul Proiectului
 Această temă presupune construirea unui joc de tip "TypeRacer" utilizând Arduino, în care jucătorul va tasta rapid cuvinte afișate într-un terminal pentru a acumula un scor într-un timp limitat. Jocul folosește un LED RGB și două butoane pentru a semnaliza starea și a permite configurarea jocului.
 
-## Funcționalități detaliate:
+# Funcționalități detaliate:
 
 
 ## Indicatorul de stare – LED RGB:
