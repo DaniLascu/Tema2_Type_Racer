@@ -68,3 +68,9 @@ Oprirea jocului: Jocul poate fi oprit în orice moment prin apăsarea butonului 
 ![poza_setup_6](https://github.com/user-attachments/assets/a706103a-8de3-40d6-a679-576d31d51657)
 ![poza_setup_5](https://github.com/user-attachments/assets/66fc1682-fb0a-4629-a8df-0cca1bf4dd58)
 ![poza_setup_4](https://github.com/user-attachments/assets/dde18fb1-b7af-42bf-b659-e9f5d9c4e336)
+
+# Schema electrică (TinkerCAD)
+![schema_electrica_tinkercad](https://github.com/user-attachments/assets/4fafbe96-075b-48c8-8ee4-a5dcbfe8afe7)
+
+# Video cu funcționalitatea
+https://www.youtube.com/watch?v=oINjeMm-TiQ
