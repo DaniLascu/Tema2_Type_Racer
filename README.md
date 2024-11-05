@@ -55,6 +55,16 @@ Oprirea jocului: Jocul poate fi oprit în orice moment prin apăsarea butonului 
 - Arduino UNO (ATmega328P microcontroller)
 - 1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
 - 2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
-- 5x Rezistoare (3x 220/330 ohm, 2x 1000 ohm)
+- 5x Rezistoare (3x 220 ohm, 2x 1000 ohm)
 - Breadbord
 - Fire de legătură
+
+# Poze ale setup-ului fizic
+![poza_setup_0](https://github.com/user-attachments/assets/a16ddc89-009b-4adc-9fe9-4a87595546bb)
+![poza_setup_3](https://github.com/user-attachments/assets/0c442569-246e-4d01-b886-6e7ffe131d2c)
+![poza_setup_2](https://github.com/user-attachments/assets/4822bfe2-aa4d-49a9-9237-ec2a0dd68b68)
+![poza_setup_1](https://github.com/user-attachments/assets/92a3f39d-5ae0-44e5-a30e-48794db20969)
+![poza_setup_7](https://github.com/user-attachments/assets/2182d72a-1c24-414f-97bf-c7c4f5c192db)
+![poza_setup_6](https://github.com/user-attachments/assets/a706103a-8de3-40d6-a679-576d31d51657)
+![poza_setup_5](https://github.com/user-attachments/assets/66fc1682-fb0a-4629-a8df-0cca1bf4dd58)
+![poza_setup_4](https://github.com/user-attachments/assets/dde18fb1-b7af-42bf-b659-e9f5d9c4e336)
