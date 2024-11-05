@@ -73,4 +73,4 @@ Oprirea jocului: Jocul poate fi oprit în orice moment prin apăsarea butonului 
 ![schema_electrica_tinkercad](https://github.com/user-attachments/assets/4fafbe96-075b-48c8-8ee4-a5dcbfe8afe7)
 
 # Video cu funcționalitatea
-https://www.youtube.com/watch?v=oINjeMm-TiQ
+https://www.youtube.com/watch?v=0_3FOQrgkME&t=20s
