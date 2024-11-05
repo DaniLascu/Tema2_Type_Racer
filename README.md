@@ -50,3 +50,11 @@ Dacă introducerea este corectă, un nou cuvânt apare imediat.
 Dacă introducerea este incorectă, LED-ul devine roșu, iar utilizatorul poate corecta cu ajutorul tastei BackSpace.
 Finalul rundei: După 30 de secunde, jocul se încheie, iar în terminal este afișat numărul total de cuvinte scrise corect.
 Oprirea jocului: Jocul poate fi oprit în orice moment prin apăsarea butonului Start/Stop, revenind la starea de repaus.
+
+# Componentele utilizate
+- Arduino UNO (ATmega328P microcontroller)
+- 1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
+- 2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
+- 5x Rezistoare (3x 220/330 ohm, 2x 1000 ohm)
+- Breadbord
+- Fire de legătură
